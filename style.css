@@ -1,0 +1,58 @@
+/*Fonts*/
+@font-face{
+    font-family: 'nameFont';
+    src: url(fonts/ostrich-sans-regular.woff) format("woff");
+}
+
+/*Elements*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #263238;
+    margin: 50px;
+    
+    font-family: 'nameFont';
+    font-kerning: normal;
+    color:whitesmoke;
+    
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.content{
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.content-links{
+    flex: 1;
+    text-align: center;
+    font-size: 30px;
+}
+
+a{
+    color: gray;
+}
+
+anim{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
